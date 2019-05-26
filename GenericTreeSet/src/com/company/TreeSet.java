@@ -43,15 +43,7 @@ public class TreeSet<T> {
                     } else {
                         this.leftNode.setValue(value);
                     }
-<<<<<<< HEAD
-<<<<<<< HEAD
                 } else if (!comparator.compare(this.value, value)) {
-=======
-                } else if (comparator.compare(this.value, value)) {
->>>>>>> d070a95e7f477d7a7ffca7ab88288a95f604f366
-=======
-                } else if (comparator.compare(this.value, value)) {
->>>>>>> ab61683cd4966a5e76a65aeff82cfd24761af34e
                     if(this.rightNode == null) {
                         this.rightNode = new Node(value);
                     } else {
