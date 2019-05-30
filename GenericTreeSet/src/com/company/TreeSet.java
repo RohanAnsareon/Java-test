@@ -21,6 +21,10 @@ public class TreeSet<T> {
         }
     }
 
+    public boolean delete(T value) {
+
+        return false;
+    }
 
     class Node {
         T value;
@@ -52,7 +56,5 @@ public class TreeSet<T> {
                 }
             }
         }
-
-
     }
 }
